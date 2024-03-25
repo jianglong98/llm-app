@@ -2,6 +2,8 @@
 
 [![pathwaycom/llm-app: Build your LLM App in 30 lines of code](https://d14l3brkh44201.cloudfront.net/pathway-llm.png)](https://pathway.com/)
 
+# Customized by Jiang Long Notes
+
 # LLM App
 
 [![LICENSE](https://img.shields.io/github/license/pathwaycom/llm-app?style=plastic)](https://github.com/pathwaycom/llm-app/blob/main/LICENSE)
