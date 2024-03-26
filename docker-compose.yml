@@ -7,7 +7,7 @@ services:
       args:
         APP_VARIANT: ${APP_VARIANT}
     ports:
-      - "8080:8080"
+      - "8051:8051"
     env_file:
       - .env
     stdin_open: true
