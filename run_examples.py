@@ -34,7 +34,7 @@ def common_options(func):
         "-p",
         envvar="PATHWAY_REST_CONNECTOR_PORT",
         type=int,
-        default=8051,
+        default=8501,
         help="Rest input connector port.",
     )
     @click.option(

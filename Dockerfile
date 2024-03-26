@@ -22,6 +22,6 @@ RUN if [ "${APP_VARIANT}" = "local" ] ; then \
     poetry install ${POETRY_FLAGS} ; \
     fi
 
-EXPOSE 8051
+EXPOSE 8501
 
 ENTRYPOINT poetry run ./run_examples.py $APP_VARIANT
