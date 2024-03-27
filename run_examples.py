@@ -26,7 +26,7 @@ def common_options(func):
         "-h",
         envvar="PATHWAY_REST_CONNECTOR_HOST",
         type=str,
-        default="127.0.0.1",
+        default="0.0.0.0",
         help="Rest input connector host.",
     )
     @click.option(

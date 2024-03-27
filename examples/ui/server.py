@@ -11,7 +11,7 @@ with st.sidebar:
 
 # Load environment variables
 load_dotenv()
-api_host = os.environ.get("PATHWAY_REST_CONNECTOR_HOST", "127.0.0.1")
+api_host = os.environ.get("PATHWAY_REST_CONNECTOR_HOST", "0.0.0.0")
 api_port = int(os.environ.get("PATHWAY_REST_CONNECTOR_PORT", 8080))
 
 
